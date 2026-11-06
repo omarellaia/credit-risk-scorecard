@@ -69,8 +69,13 @@ def fit_numeric(name: str, x: pd.Series, y: pd.Series) -> dict:
     edges = [-np.inf] + cuts + [np.inf]
     bins = [{"label": _num_label(edges[i], edges[i + 1]), "lo": _f(edges[i]), "hi": _f(edges[i + 1]), "n": int(counts_n[i]),
              "bad": int(counts_bad[i]), "bad_rate": float(counts_bad[i] / max(counts_n[i], 1)), "woe": float(woe[i])} for i in range(k)]
-    bins.append({"label": "Missing", "missing": True, "n": int(n_miss), "bad": int(bad_miss),
-                 "bad_rate": float(bad_miss / max(n_miss, 1)), "woe": float(woe[k])})
+    if n_miss == 0:
+        # never observed in training: a missing value gets the riskiest observed bin (prudent), not a smoothing artefact
+        bins.append({"label": "Manquant (non observé : classe la plus risquée)", "missing": True, "n": 0, "bad": 0,
+                     "bad_rate": float(max(b["bad_rate"] for b in bins)), "woe": float(min(b["woe"] for b in bins))})
+    else:
+        bins.append({"label": "Manquant", "missing": True, "n": int(n_miss), "bad": int(bad_miss),
+                     "bad_rate": float(bad_miss / n_miss), "woe": float(woe[k])})
     return {"name": name, "type": "numeric", "cuts": [float(c) for c in cuts], "bins": bins, "iv": iv}
 
 

@@ -149,13 +149,13 @@
      "points": 25.25386173027079
     },
     {
-     "label": "Missing",
+     "label": "Manquant (non observé : classe la plus risquée)",
      "missing": true,
      "n": 0,
      "bad": 0,
-     "bad_rate": 0.0,
-     "woe": -1.9517693856478575,
-     "points": -43.93971730734052
+     "bad_rate": 0.1847815963490733,
+     "woe": -0.4676827584979905,
+     "points": -10.52883007030963
     }
    ],
    "iv": 0.14291537115657263,
@@ -278,13 +278,13 @@
      "points": 11.666721729094977
     },
     {
-     "label": "Missing",
+     "label": "Manquant (non observé : classe la plus risquée)",
      "missing": true,
      "n": 0,
      "bad": 0,
-     "bad_rate": 0.0,
-     "woe": -1.9518092657387556,
-     "points": -46.10945389485186
+     "bad_rate": 0.18169096209912536,
+     "woe": -0.4470012590489292,
+     "points": -10.55993754454082
     }
    ],
    "iv": 0.09014914708055397,
@@ -407,13 +407,13 @@
      "points": -5.450265254657923
     },
     {
-     "label": "Missing",
+     "label": "Manquant (non observé : classe la plus risquée)",
      "missing": true,
      "n": 0,
      "bad": 0,
-     "bad_rate": 0.0,
-     "woe": -1.9518092657387556,
-     "points": -31.596939633868175
+     "bad_rate": 0.16585760517799353,
+     "woe": -0.3366743218818821,
+     "points": -5.450265254657923
     }
    ],
    "iv": 0.03886733281526411,
@@ -547,7 +547,7 @@
      "points": -2.891949936673766
     },
     {
-     "label": "Missing",
+     "label": "Manquant",
      "missing": true,
      "n": 144,
      "bad": 25,
@@ -610,13 +610,13 @@
      "points": -11.137321003087848
     },
     {
-     "label": "Missing",
+     "label": "Manquant (non observé : classe la plus risquée)",
      "missing": true,
      "n": 0,
      "bad": 0,
-     "bad_rate": 0.0,
-     "woe": -1.9519289187144935,
-     "points": -61.21099177624564
+     "bad_rate": 0.16840741023099795,
+     "woe": -0.3551528624532091,
+     "points": -11.137321003087848
     }
    ],
    "iv": 0.03116569852734058,
