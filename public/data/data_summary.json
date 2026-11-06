@@ -1,0 +1,182 @@
+{
+ "steps": [
+  {
+   "step": "raw rows",
+   "rows": 2260668
+  },
+  {
+   "step": "outside credit policy removed",
+   "rows": 2257919
+  },
+  {
+   "step": "joint applications removed",
+   "rows": 2137209
+  },
+  {
+   "step": "term not complete by 2018-12 removed",
+   "rows": 673471
+  },
+  {
+   "step": "outcome unknown (current/late) removed",
+   "rows": 673314
+  }
+ ],
+ "status_dropped": {
+  "Current": 78,
+  "Late (31-120 days)": 64,
+  "In Grace Period": 10,
+  "Late (16-30 days)": 5
+ },
+ "share_matured_by_year_term": {
+  "2007": {
+   "36 months": 1.0,
+   "60 months": null
+  },
+  "2008": {
+   "36 months": 1.0,
+   "60 months": null
+  },
+  "2009": {
+   "36 months": 1.0,
+   "60 months": null
+  },
+  "2010": {
+   "36 months": 1.0,
+   "60 months": 1.0
+  },
+  "2011": {
+   "36 months": 1.0,
+   "60 months": 1.0
+  },
+  "2012": {
+   "36 months": 1.0,
+   "60 months": 1.0
+  },
+  "2013": {
+   "36 months": 1.0,
+   "60 months": 1.0
+  },
+  "2014": {
+   "36 months": 1.0,
+   "60 months": 0.0
+  },
+  "2015": {
+   "36 months": 1.0,
+   "60 months": 0.0
+  },
+  "2016": {
+   "36 months": 0.0,
+   "60 months": 0.0
+  },
+  "2017": {
+   "36 months": 0.0,
+   "60 months": 0.0
+  },
+  "2018": {
+   "36 months": 0.0,
+   "60 months": 0.0
+  }
+ },
+ "default_rate_by_year": {
+  "2007": 0.17928286852589642,
+  "2008": 0.15813060179257363,
+  "2009": 0.12595419847328243,
+  "2010": 0.1289008321775312,
+  "2011": 0.15178859168546568,
+  "2012": 0.1619727546985965,
+  "2013": 0.15595976380522833,
+  "2014": 0.13726394783785445,
+  "2015": 0.14883640337073487
+ },
+ "loans_by_year": {
+  "2007": 251,
+  "2008": 1562,
+  "2009": 4716,
+  "2010": 11536,
+  "2011": 21721,
+  "2012": 53367,
+  "2013": 134804,
+  "2014": 162570,
+  "2015": 282787
+ },
+ "default_rate_by_year_term": {
+  "2007|36 months": 0.17928286852589642,
+  "2008|36 months": 0.15813060179257363,
+  "2009|36 months": 0.12595419847328243,
+  "2010|36 months": 0.09945665012993149,
+  "2010|60 months": 0.21009771986970685,
+  "2011|36 months": 0.10630451741011276,
+  "2011|60 months": 0.23595800524934382,
+  "2012|36 months": 0.13579480101219232,
+  "2012|60 months": 0.27695261190259673,
+  "2013|36 months": 0.12325984346059628,
+  "2013|60 months": 0.25146879180966786,
+  "2014|36 months": 0.13726394783785445,
+  "2015|36 months": 0.14883640337073487
+ },
+ "term_months": 36,
+ "train_years": [
+  2007,
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013
+ ],
+ "valid_years": [
+  2014
+ ],
+ "test_years": [
+  2015
+ ],
+ "default_statuses": [
+  "Charged Off",
+  "Default"
+ ],
+ "good_statuses": [
+  "Fully Paid"
+ ],
+ "excluded_lc_risk": [
+  "int_rate",
+  "grade",
+  "sub_grade",
+  "installment"
+ ],
+ "excluded_post_origination": [
+  "out_prncp",
+  "out_prncp_inv",
+  "total_pymnt",
+  "total_pymnt_inv",
+  "total_rec_prncp",
+  "total_rec_int",
+  "total_rec_late_fee",
+  "recoveries",
+  "collection_recovery_fee",
+  "last_pymnt_d",
+  "last_pymnt_amnt",
+  "next_pymnt_d",
+  "last_credit_pull_d",
+  "last_fico_range_high",
+  "last_fico_range_low",
+  "pymnt_plan",
+  "hardship_*",
+  "debt_settlement_*",
+  "settlement_*",
+  "loan_status (target only)"
+ ],
+ "excluded_partial_history": [
+  "bc_util",
+  "all_util",
+  "il_util",
+  "open_acc_6m",
+  "num_* (bureau trade counts)",
+  "mo_sin_*",
+  "tot_*"
+ ],
+ "n_36m_by_set": {
+  "train": 172988,
+  "validation": 162570,
+  "test": 282787
+ }
+}

@@ -1,0 +1,11 @@
+data/raw/*
+!data/raw/README.md
+data/interim/
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+.vercel
+__pycache__/
+.pytest_cache/

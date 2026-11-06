@@ -1,0 +1,902 @@
+[
+ {
+  "id": "63204314",
+  "inputs": {
+   "fico": 717.0,
+   "annual_inc": 120000.0,
+   "dti": 15.88,
+   "revol_util": 49.7,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 8,
+   "annual_inc": 9,
+   "dti": 4,
+   "revol_util": 5,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": 6.7834203987638855,
+   "annual_inc": 11.666721729094977,
+   "dti": -0.23568704675922061,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 566.6206420633429,
+  "pd": 0.059794622086456646,
+  "lgd": 0.8914796273442173,
+  "k": 0.1072983995361321,
+  "r": 0.046034179739082276,
+  "bad": 0
+ },
+ {
+  "id": "46916178",
+  "inputs": {
+   "fico": 672.0,
+   "annual_inc": 42000.0,
+   "dti": 13.23,
+   "revol_util": 98.9,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 2,
+   "annual_inc": 2,
+   "dti": 2,
+   "revol_util": 10,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -8.149776203881002,
+   "annual_inc": -4.539808873405843,
+   "dti": 2.1079201078906062,
+   "revol_util": -2.891949936673766,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 534.8044192279663,
+  "pd": 0.16076914688730273,
+  "lgd": 0.8914796273442173,
+  "k": 0.14474746856903242,
+  "r": 0.030467953807153118,
+  "bad": 0
+ },
+ {
+  "id": "68505176",
+  "inputs": {
+   "fico": 707.0,
+   "annual_inc": 55000.0,
+   "dti": 10.16,
+   "revol_util": 58.3,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "home_improvement"
+  },
+  "bins": {
+   "fico": 7,
+   "annual_inc": 3,
+   "dti": 1,
+   "revol_util": 6,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 1
+  },
+  "points": {
+   "fico": 2.4197697646694465,
+   "annual_inc": -0.5884493507053271,
+   "dti": 3.194558354036583,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": 4.220823363881555
+  },
+  "score": 553.7560960845204,
+  "pd": 0.09035307946886757,
+  "lgd": 0.8914796273442173,
+  "k": 0.11612681038514343,
+  "r": 0.03550235767762415,
+  "bad": 1
+ },
+ {
+  "id": "38742181",
+  "inputs": {
+   "fico": 697.0,
+   "annual_inc": 40300.0,
+   "dti": 21.41,
+   "revol_util": 60.8,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "OWN",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 6,
+   "annual_inc": 2,
+   "dti": 6,
+   "revol_util": 6,
+   "inq_last_6mths": 1,
+   "home_ownership": 1,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -1.0482905694551212,
+   "annual_inc": -4.539808873405843,
+   "dti": -1.708121570733456,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": -0.6969936844528087,
+   "purpose": -0.9580219674311401
+  },
+  "score": 530.7041987937737,
+  "pd": 0.18087751405606795,
+  "lgd": 0.8914796273442173,
+  "k": 0.15235688841360526,
+  "r": 0.030231499274005258,
+  "bad": 0
+ },
+ {
+  "id": "40454253",
+  "inputs": {
+   "fico": 692.0,
+   "annual_inc": 46000.0,
+   "dti": 19.2,
+   "revol_util": 27.3,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "major_purchase"
+  },
+  "bins": {
+   "fico": 5,
+   "annual_inc": 2,
+   "dti": 6,
+   "revol_util": 1,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 0
+  },
+  "points": {
+   "fico": -1.6040007040756263,
+   "annual_inc": -4.539808873405843,
+   "dti": -1.708121570733456,
+   "revol_util": 2.6742855970123727,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": 5.70256468836283
+  },
+  "score": 549.7609752386277,
+  "pd": 0.10239694252300678,
+  "lgd": 0.8914796273442173,
+  "k": 0.12066026756370579,
+  "r": 0.033609760628134464,
+  "bad": 0
+ },
+ {
+  "id": "44956060",
+  "inputs": {
+   "fico": 697.0,
+   "annual_inc": 84000.0,
+   "dti": 10.3,
+   "revol_util": 52.9,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "OWN",
+   "purpose": "home_improvement"
+  },
+  "bins": {
+   "fico": 6,
+   "annual_inc": 6,
+   "dti": 1,
+   "revol_util": 5,
+   "inq_last_6mths": 0,
+   "home_ownership": 1,
+   "purpose": 1
+  },
+  "points": {
+   "fico": -1.0482905694551212,
+   "annual_inc": 6.674923756036814,
+   "dti": 3.194558354036583,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -0.6969936844528087,
+   "purpose": 4.220823363881555
+  },
+  "score": 559.3456054627362,
+  "pd": 0.07564470596865538,
+  "lgd": 0.8914796273442173,
+  "k": 0.11133302771120196,
+  "r": 0.039207052270560816,
+  "bad": 0
+ },
+ {
+  "id": "43145916",
+  "inputs": {
+   "fico": 687.0,
+   "annual_inc": 53000.0,
+   "dti": 20.45,
+   "revol_util": 60.2,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 4,
+   "annual_inc": 3,
+   "dti": 6,
+   "revol_util": 6,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -3.1168973305869447,
+   "annual_inc": -0.5884493507053271,
+   "dti": -1.708121570733456,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": -0.9580219674311401
+  },
+  "score": 538.1379037331814,
+  "pd": 0.14578548069756905,
+  "lgd": 0.8914796273442173,
+  "k": 0.13868723502706026,
+  "r": 0.030790604549252074,
+  "bad": 1
+ },
+ {
+  "id": "46916684",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 34864.0,
+   "dti": 28.5,
+   "revol_util": 75.6,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 1,
+   "dti": 9,
+   "revol_util": 9,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": -7.949833433408184,
+   "dti": -5.450265254657923,
+   "revol_util": -1.3956981884637758,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 524.6991664124579,
+  "pd": 0.21377902883969085,
+  "lgd": 0.8914796273442173,
+  "k": 0.16322705987472463,
+  "r": 0.03007318743257162,
+  "bad": 0
+ },
+ {
+  "id": "50748285",
+  "inputs": {
+   "fico": 697.0,
+   "annual_inc": 55000.0,
+   "dti": 34.96,
+   "revol_util": 58.3,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "credit_card"
+  },
+  "bins": {
+   "fico": 6,
+   "annual_inc": 3,
+   "dti": 9,
+   "revol_util": 6,
+   "inq_last_6mths": 1,
+   "home_ownership": 0,
+   "purpose": 0
+  },
+  "points": {
+   "fico": -1.0482905694551212,
+   "annual_inc": -0.5884493507053271,
+   "dti": -5.450265254657923,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": 2.3636247069852394,
+   "purpose": 5.70256468836283
+  },
+  "score": 540.6346196797817,
+  "pd": 0.1353365513009405,
+  "lgd": 0.8914796273442173,
+  "k": 0.13432646836681542,
+  "r": 0.03113968869997957,
+  "bad": 0
+ },
+ {
+  "id": "55422883",
+  "inputs": {
+   "fico": 662.0,
+   "annual_inc": 71000.0,
+   "dti": 16.95,
+   "revol_util": 42.7,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 0,
+   "annual_inc": 4,
+   "dti": 5,
+   "revol_util": 3,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -10.52883007030963,
+   "annual_inc": 2.803704468372186,
+   "dti": -0.5509331230869768,
+   "revol_util": 0.9546060918656802,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": -0.9580219674311401
+  },
+  "score": 536.5463827771787,
+  "pd": 0.15278947659282102,
+  "lgd": 0.8914796273442173,
+  "k": 0.141554679825207,
+  "r": 0.030618723230240286,
+  "bad": 0
+ },
+ {
+  "id": "65614210",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 80000.0,
+   "dti": 14.45,
+   "revol_util": 46.9,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "home_improvement"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 6,
+   "dti": 3,
+   "revol_util": 4,
+   "inq_last_6mths": 1,
+   "home_ownership": 0,
+   "purpose": 1
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": 6.674923756036814,
+   "dti": 1.074803522510225,
+   "revol_util": 0.6978666734222607,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": 2.3636247069852394,
+   "purpose": 4.220823363881555
+  },
+  "score": 546.2208700621699,
+  "pd": 0.11423637180927157,
+  "lgd": 0.8914796273442173,
+  "k": 0.1254569418873242,
+  "r": 0.03238514862063634,
+  "bad": 0
+ },
+ {
+  "id": "51326597",
+  "inputs": {
+   "fico": 712.0,
+   "annual_inc": 50000.0,
+   "dti": 13.03,
+   "revol_util": 19.2,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "credit_card"
+  },
+  "bins": {
+   "fico": 8,
+   "annual_inc": 3,
+   "dti": 2,
+   "revol_util": 0,
+   "inq_last_6mths": 1,
+   "home_ownership": 0,
+   "purpose": 0
+  },
+  "points": {
+   "fico": 6.7834203987638855,
+   "annual_inc": -0.5884493507053271,
+   "dti": 2.1079201078906062,
+   "revol_util": 4.438697141191769,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": 2.3636247069852394,
+   "purpose": 5.70256468836283
+  },
+  "score": 560.7796765768713,
+  "pd": 0.07224194325420082,
+  "lgd": 0.8914796273442173,
+  "k": 0.11036658333095258,
+  "r": 0.040371549542227436,
+  "bad": 1
+ },
+ {
+  "id": "66475663",
+  "inputs": {
+   "fico": 672.0,
+   "annual_inc": 53994.2,
+   "dti": 19.49,
+   "revol_util": 59.8,
+   "inq_last_6mths": 4.0,
+   "home_ownership": "RENT",
+   "purpose": "credit_card"
+  },
+  "bins": {
+   "fico": 2,
+   "annual_inc": 3,
+   "dti": 6,
+   "revol_util": 6,
+   "inq_last_6mths": 3,
+   "home_ownership": 2,
+   "purpose": 0
+  },
+  "points": {
+   "fico": -8.149776203881002,
+   "annual_inc": -0.5884493507053271,
+   "dti": -1.708121570733456,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": -11.137321003087848,
+   "home_ownership": -2.0465740167136715,
+   "purpose": 5.70256468836283
+  },
+  "score": 523.5674263895881,
+  "pd": 0.22044554184274773,
+  "lgd": 0.8914796273442173,
+  "k": 0.16517798610968706,
+  "r": 0.030057956675943697,
+  "bad": 0
+ },
+ {
+  "id": "44095815",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 30000.0,
+   "dti": 36.48,
+   "revol_util": 42.3,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 0,
+   "dti": 9,
+   "revol_util": 3,
+   "inq_last_6mths": 1,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": -10.55993754454082,
+   "dti": -5.450265254657923,
+   "revol_util": 0.9546060918656802,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 517.5388340715548,
+  "pd": 0.25843151861618674,
+  "lgd": 0.8914796273442173,
+  "k": 0.17470630301911647,
+  "r": 0.03001533574806413,
+  "bad": 1
+ },
+ {
+  "id": "56068677",
+  "inputs": {
+   "fico": 662.0,
+   "annual_inc": 110000.0,
+   "dti": 13.4,
+   "revol_util": 59.9,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 0,
+   "annual_inc": 8,
+   "dti": 2,
+   "revol_util": 6,
+   "inq_last_6mths": 1,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -10.52883007030963,
+   "annual_inc": 11.251805146553984,
+   "dti": 2.1079201078906062,
+   "revol_util": -0.31646342513030173,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 543.891933382941,
+  "pd": 0.12266136735892375,
+  "lgd": 0.8914796273442173,
+  "k": 0.1289805074184706,
+  "r": 0.03177604075668969,
+  "bad": 0
+ },
+ {
+  "id": "39752721",
+  "inputs": {
+   "fico": 702.0,
+   "annual_inc": 100000.0,
+   "dti": 22.89,
+   "revol_util": 49.5,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 7,
+   "annual_inc": 8,
+   "dti": 7,
+   "revol_util": 5,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": 2.4197697646694465,
+   "annual_inc": 11.251805146553984,
+   "dti": -2.882372243127583,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 559.195389650339,
+  "pd": 0.07600953393519892,
+  "lgd": 0.8914796273442173,
+  "k": 0.11143999834706732,
+  "r": 0.039090235020754246,
+  "bad": 0
+ },
+ {
+  "id": "65631319",
+  "inputs": {
+   "fico": 662.0,
+   "annual_inc": 44400.0,
+   "dti": 26.16,
+   "revol_util": 80.6,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "other"
+  },
+  "bins": {
+   "fico": 0,
+   "annual_inc": 2,
+   "dti": 8,
+   "revol_util": 9,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 3
+  },
+  "points": {
+   "fico": -10.52883007030963,
+   "annual_inc": -4.539808873405843,
+   "dti": -3.693556003383423,
+   "revol_util": -1.3956981884637758,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": -9.47157115430918
+  },
+  "score": 515.1963930878967,
+  "pd": 0.2742921082636404,
+  "lgd": 0.8914796273442173,
+  "k": 0.17791732050108874,
+  "r": 0.030008802765559183,
+  "bad": 0
+ },
+ {
+  "id": "61238118",
+  "inputs": {
+   "fico": 682.0,
+   "annual_inc": 80000.0,
+   "dti": 14.76,
+   "revol_util": 74.9,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 3,
+   "annual_inc": 6,
+   "dti": 3,
+   "revol_util": 8,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -4.874663336538769,
+   "annual_inc": 6.674923756036814,
+   "dti": 1.074803522510225,
+   "revol_util": -1.2141630945962754,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 549.9389349814483,
+  "pd": 0.10183145441852975,
+  "lgd": 0.8914796273442173,
+  "k": 0.12043813984467287,
+  "r": 0.03368191701968683,
+  "bad": 1
+ },
+ {
+  "id": "43510022",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 37000.0,
+   "dti": 16.93,
+   "revol_util": 51.4,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "credit_card"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 1,
+   "dti": 5,
+   "revol_util": 5,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 0
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": -7.949833433408184,
+   "dti": -0.5509331230869768,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": 5.70256468836283
+  },
+  "score": 533.3727375127946,
+  "pd": 0.16757696228066082,
+  "lgd": 0.8914796273442173,
+  "k": 0.14739828448260706,
+  "r": 0.030368741571194208,
+  "bad": 0
+ },
+ {
+  "id": "40991823",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 65000.0,
+   "dti": 5.35,
+   "revol_util": 50.7,
+   "inq_last_6mths": 1.0,
+   "home_ownership": "OWN",
+   "purpose": "credit_card"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 4,
+   "dti": 0,
+   "revol_util": 5,
+   "inq_last_6mths": 1,
+   "home_ownership": 1,
+   "purpose": 0
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": 2.803704468372186,
+   "dti": 4.6336339878100805,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": -1.8396683870946455,
+   "home_ownership": -0.6969936844528087,
+   "purpose": 5.70256468836283
+  },
+  "score": 543.759890347633,
+  "pd": 0.12315469545319153,
+  "lgd": 0.8914796273442173,
+  "k": 0.1291882663615551,
+  "r": 0.03174563800823042,
+  "bad": 0
+ },
+ {
+  "id": "60974041",
+  "inputs": {
+   "fico": 707.0,
+   "annual_inc": 90000.0,
+   "dti": 24.91,
+   "revol_util": 57.7,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "home_improvement"
+  },
+  "bins": {
+   "fico": 7,
+   "annual_inc": 7,
+   "dti": 8,
+   "revol_util": 5,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 1
+  },
+  "points": {
+   "fico": 2.4197697646694465,
+   "annual_inc": 9.133112596909209,
+   "dti": -3.693556003383423,
+   "revol_util": 0.12815284820695175,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": 4.220823363881555
+  },
+  "score": 561.4443586717512,
+  "pd": 0.07071312436469714,
+  "lgd": 0.8914796273442173,
+  "k": 0.10995083696300795,
+  "r": 0.040941633471565105,
+  "bad": 0
+ },
+ {
+  "id": "60256387",
+  "inputs": {
+   "fico": 717.0,
+   "annual_inc": 28500.0,
+   "dti": 33.47,
+   "revol_util": 9.9,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "OWN",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 8,
+   "annual_inc": 0,
+   "dti": 9,
+   "revol_util": 0,
+   "inq_last_6mths": 0,
+   "home_ownership": 1,
+   "purpose": 2
+  },
+  "points": {
+   "fico": 6.7834203987638855,
+   "annual_inc": -10.55993754454082,
+   "dti": -5.450265254657923,
+   "revol_util": 4.438697141191769,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -0.6969936844528087,
+   "purpose": -0.9580219674311401
+  },
+  "score": 540.4293304833552,
+  "pd": 0.13617128927530425,
+  "lgd": 0.8914796273442173,
+  "k": 0.13467743955889602,
+  "r": 0.031106873446241797,
+  "bad": 1
+ },
+ {
+  "id": "61390537",
+  "inputs": {
+   "fico": 707.0,
+   "annual_inc": 30000.0,
+   "dti": 26.28,
+   "revol_util": 45.1,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 7,
+   "annual_inc": 0,
+   "dti": 8,
+   "revol_util": 4,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 2
+  },
+  "points": {
+   "fico": 2.4197697646694465,
+   "annual_inc": -10.55993754454082,
+   "dti": -3.693556003383423,
+   "revol_util": 0.6978666734222607,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": -0.9580219674311401
+  },
+  "score": 532.7319783005048,
+  "pd": 0.17069763811172045,
+  "lgd": 0.8914796273442173,
+  "k": 0.14858878269773262,
+  "r": 0.030330587837496117,
+  "bad": 0
+ },
+ {
+  "id": "61461338",
+  "inputs": {
+   "fico": 667.0,
+   "annual_inc": 52000.0,
+   "dti": 29.93,
+   "revol_util": 70.9,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "MORTGAGE",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 1,
+   "annual_inc": 3,
+   "dti": 9,
+   "revol_util": 7,
+   "inq_last_6mths": 0,
+   "home_ownership": 0,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -8.783070845048561,
+   "annual_inc": -0.5884493507053271,
+   "dti": -5.450265254657923,
+   "revol_util": -0.8296907686723595,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": 2.3636247069852394,
+   "purpose": -0.9580219674311401
+  },
+  "score": 532.6265579149522,
+  "pd": 0.1712154628880843,
+  "lgd": 0.8914796273442173,
+  "k": 0.14878476662331608,
+  "r": 0.03032465027575783,
+  "bad": 0
+ },
+ {
+  "id": "42674245",
+  "inputs": {
+   "fico": 697.0,
+   "annual_inc": 70000.0,
+   "dti": 32.54,
+   "revol_util": 96.0,
+   "inq_last_6mths": 0.0,
+   "home_ownership": "RENT",
+   "purpose": "debt_consolidation"
+  },
+  "bins": {
+   "fico": 6,
+   "annual_inc": 4,
+   "dti": 9,
+   "revol_util": 10,
+   "inq_last_6mths": 0,
+   "home_ownership": 2,
+   "purpose": 2
+  },
+  "points": {
+   "fico": -1.0482905694551212,
+   "annual_inc": 2.803704468372186,
+   "dti": -5.450265254657923,
+   "revol_util": -2.891949936673766,
+   "inq_last_6mths": 5.06086412300523,
+   "home_ownership": -2.0465740167136715,
+   "purpose": -0.9580219674311401
+  },
+  "score": 537.2810341179228,
+  "pd": 0.1495227271549596,
+  "lgd": 0.8914796273442173,
+  "k": 0.14022404931985025,
+  "r": 0.030693668568209712,
+  "bad": 0
+ }
+]
